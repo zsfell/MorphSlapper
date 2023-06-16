@@ -1,0 +1,14 @@
+name: MorphSlapper
+api: 5.0.0
+version: 1.0
+main: mslapper\Main
+author: zsfell
+commands:
+  mslapper:
+    description: "mslapper"
+    usage: /mslapper
+    permission: mslapper.use
+    aliases: [mslap]
+permissions:
+  mslapper.use:
+    default: op
